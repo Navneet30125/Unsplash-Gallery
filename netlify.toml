@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[build.environment]
+  NEXT_PUBLIC_UNSPLASH_ACCESS_KEY = "Xegda_1hCDeiD_Cuf-b5dONB1pesoEFkX_D7KXRe0A0"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
